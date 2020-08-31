@@ -23,10 +23,9 @@ function popularity(logPagesVisited) {
                 pages.forEach((page, index) => {                 
                     if (pages[index+1] && pages[index+2]) {
 
-                        const sequence2 = `${pages[index]}, ${pages[index+1]}, ${pages[index+2]}`;
+                        const sequence = `${pages[index]}, ${pages[index+1]}, ${pages[index+2]}`;
 
-                        allSequences.push(sequence2);
-                        
+                        allSequences.push(sequence);                        
                     }
                 });
             });
