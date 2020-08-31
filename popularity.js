@@ -1,10 +1,6 @@
 function popularity(logPagesVisited) {
     let pagesUsers = {};
     let allSequences = [];
-    let mostVisitedSequence = {
-        sequence: [],
-        qtd: 0
-    };
 
     if (typeof logPagesVisited === 'undefined') {
         return false;
